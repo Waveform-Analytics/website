@@ -238,7 +238,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="md:col-span-2 space-y-4">
             <p className="text-base leading-relaxed">
-              I founded Waveform Analytics in 2023 after a decade in ocean
+              I founded Waveform Analytics in 2024 after a decade in ocean
               acoustics. I held graduate research positions (University of New
               Hampshire, University of Washington - Seattle), modeled marine
               animal noise exposure at JASCO Applied Sciences, and eventually
