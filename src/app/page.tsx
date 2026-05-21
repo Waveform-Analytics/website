@@ -62,7 +62,7 @@ const work: WorkItem[] = [
   },
   {
     category: "Science",
-    year: "2024-2026",
+    year: "2024-ongoing",
     title: "Acoustic indices as biological activity indicators",
     description:
       "Collaborative research with Liz Ferguson (Ocean Science Analytics) testing whether acoustic indices can predict biological activity in a temperate estuary. Indices predicted presence reliably (AUC 0.74–0.92) but not activity counts. This is a practically important distinction for large-scale PAM monitoring programs.",
@@ -72,7 +72,7 @@ const work: WorkItem[] = [
   },
   {
     category: "Tools",
-    year: "ongoing",
+    year: "2026-ongoing",
     title: "Science spec kit",
     description:
       "A scientific adaptation of GitHub's spec-kit — bringing spec-driven development to scientific software. Makes reproducibility, documentation, and rigorous process a built-in part of the workflow rather than an afterthought. Designed to work across AI coding tools via an adapter system.",
