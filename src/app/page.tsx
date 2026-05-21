@@ -65,10 +65,8 @@ const work: WorkItem[] = [
     year: "2024-ongoing",
     title: "Acoustic indices as biological activity indicators",
     description:
-      "Collaborative research with Liz Ferguson (Ocean Science Analytics) testing whether acoustic indices can predict biological activity in a temperate estuary. Indices predicted presence reliably (AUC 0.74–0.92) but not activity counts. This is a practically important distinction for large-scale PAM monitoring programs.",
+      "Collaborative research with Liz Ferguson (Ocean Science Analytics) testing whether acoustic indices can predict biological activity in a various aquatic environments. Indices predicted presence reliably but not activity counts. This is a practically important distinction for large-scale PAM monitoring programs.",
     scheme: "navy",
-    link: "https://waveform-analytics.github.io/mbon-indices-study/results-viewer.html",
-    linkLabel: "Results viewer",
   },
   {
     category: "Tools",
@@ -257,7 +255,7 @@ export default function Home() {
               development, write tests, and document everything with the
               assumption that a future developer (or future me) will need to
               pick it up cold. Reproducibility isn&apos;t a bonus — it&apos;s
-              the job.
+              the whole thing.
             </p>
           </div>
           <div className="space-y-5 text-sm">
