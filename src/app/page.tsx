@@ -187,7 +187,7 @@ export default function Home() {
               >
                 Waveform Analytics
                 <br />
-                Wilmington, NC · est. 2023
+                Wilmington, NC · est. 2024
               </p>
               <a
                 href={`mailto:${EMAIL}`}
