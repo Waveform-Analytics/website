@@ -172,8 +172,8 @@ export default function Home() {
               className="text-4xl font-medium leading-tight"
               style={{ maxWidth: "520px" }}
             >
-              PhD oceanographer building software for science, communities, and
-              the spaces in between.
+              Oceanographer building software for science, communities, and the
+              spaces in between.
             </h1>
           </div>
 
