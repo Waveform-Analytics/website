@@ -2,6 +2,9 @@
 // waveformanalytics.com
 // ─────────────────────────────────────────────────────────────────────────────
 
+import Link from "next/link";
+import Image from "next/image";
+
 const GITHUB = "https://github.com/Waveform-Analytics";
 const LINKEDIN = "https://www.linkedin.com/company/waveform-analytics-llc";
 const EMAIL = "michelle@waveformanalytics.com";
@@ -100,13 +103,14 @@ export default function Home() {
       {/* ── Nav ── */}
       <header style={{ borderBottom: "0.5px solid var(--border)" }}>
         <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="/">
-            <img
+          <Link href="/">
+            <Image
               src="/logo.png"
               alt="Waveform Analytics"
-              style={{ height: "32px", width: "auto" }}
+              height={32}
+              width={61}
             />
-          </a>
+          </Link>
           <div className="flex items-center gap-6">
             <a
               href="#work"
