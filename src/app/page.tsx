@@ -3,7 +3,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 const GITHUB = "https://github.com/Waveform-Analytics";
-const LINKEDIN = "https://www.linkedin.com/in/michweirathmueller/";
+const LINKEDIN = "https://www.linkedin.com/company/waveform-analytics-llc";
 const EMAIL = "michelle@waveformanalytics.com";
 
 // ─── Card color schemes ───────────────────────────────────────────────────────
