@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Waveform Analytics | Marine Bioacoustics Consulting",
+  title: "Waveform Analytics | Michelle Weirathmueller, PhD",
   description:
-    "Michelle Weirathmueller, PhD — marine bioacoustics consultant specializing in passive acoustic monitoring, species detection, and soundscape ecology.",
+    "Michelle Weirathmueller, PhD — oceanographer building software for science, communities, and the spaces in between.",
 };
 
 export default function RootLayout({
