@@ -57,7 +57,7 @@ const work: WorkItem[] = [
     year: "2018-ongoing",
     title: "Animal movement simulation software tools",
     description:
-      "Spec-driven animal movement and sound exposure modeling in support of regulatory compliance and the protection of marine fauna. Includes comprehensive test coverage and fully reproducible outputs. Built to be handed off with documentation that users and future developers can actually use.",
+      "Spec-driven animal movement and sound exposure modeling for regulatory compliance work. Tests are thorough, outputs are reproducible, and the documentation is written for whoever picks this up next.",
     scheme: "charcoal",
   },
   {
@@ -65,7 +65,7 @@ const work: WorkItem[] = [
     year: "2024-ongoing",
     title: "Acoustic indices as biological activity indicators",
     description:
-      "Collaborative research with Liz Ferguson (Ocean Science Analytics) testing whether acoustic indices can predict biological activity in a various aquatic environments. Indices predicted presence reliably but not activity counts. This is a practically important distinction for large-scale PAM monitoring programs.",
+      "Collaborative work with Liz Ferguson (Ocean Science Analytics) testing whether acoustic indices can predict biological activity across aquatic environments. Indices predicted presence reliably but not activity counts — a distinction that matters for large-scale PAM monitoring programs.",
     scheme: "navy",
   },
   {
@@ -73,7 +73,7 @@ const work: WorkItem[] = [
     year: "2026-ongoing",
     title: "Science spec kit",
     description:
-      "A scientific adaptation of GitHub's spec-kit — bringing spec-driven development to scientific software. Makes reproducibility, documentation, and rigorous process a built-in part of the workflow rather than an afterthought. Designed to work across AI coding tools via an adapter system.",
+      "A scientific adaptation of GitHub's spec-kit. Reproducibility, documentation, and process are part of the workflow from the start, not added at the end. Plugs into AI coding tools via an adapter system.",
     scheme: "plum",
     link: "https://github.com/Waveform-Analytics/science-spec-kit",
     linkLabel: "Github page",
@@ -83,7 +83,7 @@ const work: WorkItem[] = [
     year: "2026",
     title: "Local Sunshine",
     description:
-      "Neighborhood discovery app for Pleasure Island, NC. Promotes local businesses, events, and community resources. Built to production standard, not just 'good for a side project.'",
+      "A neighborhood discovery app for Pleasure Island — local businesses, events, and community resources. Built to production standard.",
     scheme: "forest",
     link: "https://local-sunshine.app",
     linkLabel: "Local sunshine web app",
@@ -171,8 +171,7 @@ export default function Home() {
               className="text-4xl font-medium leading-tight"
               style={{ maxWidth: "520px" }}
             >
-              Oceanographer building software for science, communities, and the
-              spaces in between.
+              Oceanographer building software for science and community.
             </h1>
           </div>
 
@@ -238,24 +237,21 @@ export default function Home() {
           <div className="md:col-span-2 space-y-4">
             <p className="text-base leading-relaxed">
               I founded Waveform Analytics in 2024 after more than a decade in
-              ocean acoustics. I held graduate research positions (University of
-              New Hampshire, University of Washington - Seattle), modeled marine
-              animal noise exposure at JASCO Applied Sciences, and eventually
-              realized I wanted to build the tools, not just use them.
+              ocean acoustics — graduate research at University of New
+              Hampshire and University of Washington, then noise exposure
+              modeling at JASCO Applied Sciences. Eventually I wanted to build
+              the tools rather than just use them.
             </p>
             <p className="text-base leading-relaxed">
-              My background is in marine acoustics and engineering, but what I
-              actually do is build things: scientific analysis pipelines,
-              software tools, community web apps, data workflows, documentation
-              systems. I work across domains: marine science, civic tech, family
-              tools — and hold the same standard across all of them.
+              My background is marine acoustics and engineering. In practice I
+              build scientific analysis pipelines, software tools, community
+              web apps, and data workflows across whatever domain needs them —
+              marine science, civic tech, local community projects.
             </p>
             <p className="text-base leading-relaxed">
-              I care about process as much as product. I follow spec-driven
-              development, write tests, and document everything with the
-              assumption that a future developer (or future me) will need to
-              pick it up cold. Reproducibility isn&apos;t a bonus — it&apos;s
-              the whole thing.
+              I follow spec-driven development, write tests, and document
+              everything assuming someone else will inherit it later.
+              Reproducibility is a requirement, not a feature.
             </p>
           </div>
           <div className="space-y-5 text-sm">
